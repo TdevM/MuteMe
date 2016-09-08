@@ -25,34 +25,15 @@
         android:layout_marginStart="80dp"
         android:contentDescription="@string/image" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start Service"
-        android:id="@+id/btn_start"
-        android:layout_marginBottom="63dp"
-        android:visibility="invisible"
-        android:layout_above="@+id/mute"
-        android:layout_centerHorizontal="true" />
 
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Stop Service"
-        android:id="@+id/btn_stop"
-        android:layout_below="@+id/mute"
-        android:visibility="invisible"
-        android:layout_alignStart="@+id/btn_start"
-        android:layout_marginTop="63dp" />
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
         android:id="@+id/toggleButton"
-        android:layout_above="@+id/btn_start"
+style="@android:style/Widget.Material.Light.Button.Toggle"
+        android:layout_alignTop="@+id/mute"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
